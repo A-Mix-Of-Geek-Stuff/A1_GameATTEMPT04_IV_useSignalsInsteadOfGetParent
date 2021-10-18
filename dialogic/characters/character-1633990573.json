@@ -1,0 +1,20 @@
+{
+	"color": "#ffffc500",
+	"description": "",
+	"display_name": "Relle",
+	"display_name_bool": true,
+	"id": "character-1633990573.json",
+	"mirror_portraits": false,
+	"name": "CHARACTER_MAIN",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

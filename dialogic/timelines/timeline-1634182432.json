@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DEBUG MESSAGE: BEGINNING DIALOGUE 2."
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 0.1
+		},
+		{
+			"emit_signal": "pointCamAt_NPC1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So... you've arrived."
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure have."
+		},
+		{
+			"emit_signal": "pointCamAt_NPC1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So...\nWhat do you wish to know?"
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh...\nWhat can you tell me?"
+		},
+		{
+			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3 - BETA",
+		"file": "timeline-1634182432.json",
+		"name": "NPC_TWOs_Dialogue"
+	}
+}

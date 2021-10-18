@@ -1,0 +1,67 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 0.1
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You gonna jump up there yet?"
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How do I jump?"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Press space bar, silly!"
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I did! It's not working!"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? \nUh oh... \nWe better fix that, then."
+		},
+		{
+			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3 - BETA",
+		"file": "timeline-1634226656.json",
+		"name": "NPC_3_THREE_Dialog_TIMELINE"
+	}
+}

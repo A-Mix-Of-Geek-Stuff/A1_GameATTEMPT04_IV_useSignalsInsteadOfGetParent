@@ -1,0 +1,82 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://addons/Todot/Todot.tres" type="Theme" id=1]
+[ext_resource path="res://addons/Todot/Src/Scripts/Mouse.gd" type="Script" id=3]
+[ext_resource path="res://addons/Todot/Todot.gd" type="Script" id=4]
+[ext_resource path="res://addons/Todot/Src/Scenes/TodoPopup.tscn" type="PackedScene" id=5]
+[ext_resource path="res://addons/Todot/Src/Scripts/AddListButton.gd" type="Script" id=6]
+[ext_resource path="res://addons/Todot/Roboto-Light.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 7 )
+
+[node name="Todot" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 1 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ListScrollContainer" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_vertical = 3
+follow_focus = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ListContainer" type="HBoxContainer" parent="ListScrollContainer"]
+margin_right = 667.0
+margin_bottom = 186.0
+custom_constants/separation = 30
+
+[node name="Button" type="Button" parent="ListScrollContainer/ListContainer"]
+margin_left = 632.0
+margin_right = 667.0
+margin_bottom = 56.0
+size_flags_vertical = 0
+custom_fonts/font = SubResource( 1 )
+text = "+"
+script = ExtResource( 6 )
+
+[node name="Dialouges" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogueBackground" type="ColorRect" parent="Dialouges"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.509804 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TodoPopup" parent="Dialouges" instance=ExtResource( 5 )]
+visible = false
+
+[node name="Mouse" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="ListScrollContainer/ListContainer/Button" to="ListScrollContainer/ListContainer/Button" method="add_list"]
+[connection signal="about_to_show" from="Dialouges/TodoPopup" to="Dialouges/DialogueBackground" method="show"]
+[connection signal="popup_hide" from="Dialouges/TodoPopup" to="Dialouges/TodoPopup" method="_on_TodoPopup_popup_hide"]
+[connection signal="popup_hide" from="Dialouges/TodoPopup" to="Dialouges/DialogueBackground" method="hide"]

@@ -1,0 +1,46 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://CONTROLS/TOUCH_controls/TOUCH_CONTROLS_CanvasLayerNode.gd" type="Script" id=1]
+[ext_resource path="res://CONTROLS/TOUCH_controls/REGION_ofJoystick_400x400pixels.png" type="Texture" id=2]
+[ext_resource path="res://CONTROLS/TOUCH_controls/BOUNDARY_of_joystick_99x99pixels.png" type="Texture" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 50.0
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 200, 200 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 200, 200 )
+
+[node name="TOUCH_CONTROLS_CanvasLayerNode" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="JOYSTICK_TouchScreenButtonNode" type="TouchScreenButton" parent="."]
+position = Vector2( 137.73, 368.693 )
+normal = ExtResource( 3 )
+shape = SubResource( 1 )
+
+[node name="REGIONofJoystick_TouchScreenButtonNode" type="TouchScreenButton" parent="."]
+position = Vector2( -12.7136, 209.774 )
+normal = ExtResource( 2 )
+shape = SubResource( 2 )
+
+[node name="TALK_INTERACT_TouchScreenButtonNode" type="TouchScreenButton" parent="."]
+position = Vector2( 885.971, -11.8201 )
+scale = Vector2( 0.384433, 0.376487 )
+normal = ExtResource( 2 )
+shape = SubResource( 3 )
+action = "ui_accept"
+
+[node name="JUMP_TouchScreenButtonNode" type="TouchScreenButton" parent="."]
+position = Vector2( 924.972, 404.934 )
+scale = Vector2( 0.285147, 0.527918 )
+normal = ExtResource( 2 )
+shape = SubResource( 3 )
+
+[node name="CAM_ROTATE_TouchScreenButtonNode" type="TouchScreenButton" parent="."]
+position = Vector2( 398.366, 436.479 )
+scale = Vector2( 0.960663, 0.437617 )
+normal = ExtResource( 2 )
+shape = SubResource( 3 )

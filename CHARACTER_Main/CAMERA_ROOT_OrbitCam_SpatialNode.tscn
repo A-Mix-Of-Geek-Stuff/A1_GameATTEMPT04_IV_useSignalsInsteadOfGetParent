@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://CHARACTER_Main/CAMERA_ROOT_OrbitCam_SpatialNode.gd" type="Script" id=1]
+[ext_resource path="res://CHARACTER_Main/ClippedCameraNode_forPLATFORMER.gd" type="Script" id=2]
+
+[node name="CAMERA_ROOT_OrbitCam_SpatialNode" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="HORIZONTAL_ROTATE_Cam_SpatialNode" type="Spatial" parent="."]
+
+[node name="VERTICAL_ROTATE_Cam_SpatialNode" type="Spatial" parent="HORIZONTAL_ROTATE_Cam_SpatialNode"]
+transform = Transform( 1, 0, 0, 0, 0.731889, 0.681424, 0, -0.681424, 0.731889, 0, 0, 0 )
+
+[node name="ClippedCameraNode_forPLATFORMER" type="ClippedCamera" parent="HORIZONTAL_ROTATE_Cam_SpatialNode/VERTICAL_ROTATE_Cam_SpatialNode"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.44891, 13.059 )
+current = true
+script = ExtResource( 2 )

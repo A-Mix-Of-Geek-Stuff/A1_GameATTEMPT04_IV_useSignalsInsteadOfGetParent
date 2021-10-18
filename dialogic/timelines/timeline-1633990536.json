@@ -1,0 +1,93 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 0.1
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Debutg message: starting dialogue timeline 1"
+		},
+		{
+			"character": "character-1633990573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi!"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990599.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello."
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So... anything interesting to do here?"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990599.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you can jump high enough,\nYou can walk up to some trees."
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, interesting!"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990599.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have fun."
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990573.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, bye!"
+		},
+		{
+			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3 - BETA",
+		"file": "timeline-1633990536.json",
+		"name": "001_TEST_Timeline"
+	}
+}
