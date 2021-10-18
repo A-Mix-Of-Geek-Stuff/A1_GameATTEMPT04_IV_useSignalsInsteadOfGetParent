@@ -12,7 +12,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "So you finally initialized actual version control using GitKraken, eh? \nGood job!\nNow sync it to Github so you have a backup that's not at home!"
+			"text": "Initialized on GitKraken...\nAnd now online on GitHub!\nNice!"
 		},
 		{
 			"character": "character-1633990573.json",
