@@ -1,5 +1,7 @@
 extends Control
 
+#I didn't write this script.
+#It was automatically created by the Dialogic addon.
 
 ## The timeline to load when starting the scene
 export(String, "TimelineDropdown") var timeline: String

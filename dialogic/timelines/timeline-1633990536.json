@@ -5,14 +5,14 @@
 			"wait_seconds": 0.1
 		},
 		{
-			"emit_signal": "pointCamAt_CHAR",
-			"event_id": "dialogic_040"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Initialized on GitKraken...\nAnd now online on GitHub!\nNice!"
+		},
+		{
+			"emit_signal": "pointCamAt_CHAR",
+			"event_id": "dialogic_040"
 		},
 		{
 			"character": "character-1633990573.json",

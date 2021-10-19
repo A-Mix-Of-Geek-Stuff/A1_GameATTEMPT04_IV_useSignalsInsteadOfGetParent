@@ -1,0 +1,74 @@
+HOW_TO__Duplicate_AnNPC_WithNewDialogue.txt
+
+Overview, because it's too complicated to make a vid tuto for me right now.
+
+ps this is specific to my game project.
+Not really tutorial-for-plubic friendly.
+
+I think this works!
+I hope polishing camera angle,
+or adding dilaogue animations
+doesn't over complicate these steps.
+
+
+DUPLICATE THE SCENE.TSCN FILE, NOT the node!
+	Why? Cuz if you duplicate the node and edit it (ie click the movie icon),
+	It'll open up the same scene file. We don't want that.
+	What we want is a SEPARATE copy of the NPC, NOT a linked copy.
+
+
+DUPLICATE THE DIALOGUE_NPC_INDICATOR_Spite3dNode.gd SCRIPT FILE, TOO
+	Why? Cuz the dupcliate scene needs to use a different script.
+	If you skip this step, then you'll have two diff npc's trying to use the same dialogue.
+	Any changes you make will be changed for the 1st npc!
+
+
+
+OPEN THE SCENE FIRST BEFORE adding npc scene to world.
+	Why? Just so you won't have to rename the node a second time.
+	Rename the node withint the scene.
+
+
+DISCONNECT THE OLD SCRIPT AND RE-ATTACH NEW SCRIPT
+	I almost forgot this step.
+
+
+
+CHANGE THIS VAR TO THE NAME OF THE NEW TIMELINE OF DIALOGUE:
+export var TIMELINE_fromDialogic = '001_TEST_Timeline'
+Change the name in the apostrophes/quotes to whatever your new timeline is named.
+
+
+
+NOTE: You can USE THE SAME ARGUMENT NAMES FOR THE SIGNALS IN DIALOGIC
+	I.e. in Dialogic timeline for NPC02_two,
+	The signal_arguments emitted from the timeline still say "pointCamAt_NPC1"
+	even though it's the 2nd npc now.
+	Still works, tho!
+	P.s. I changed it to pointCamAt_NPC, ie. without "1", and I changed every other variable. It works!
+
+
+REMINDER: Put a Wait Seconds event before the first signal in the dialogic timleine
+	Or else the first signal won't work.
+
+
+
+
+OPEN COMMON PARENT SCRIPT THAT CONNECTS THE SIGNALS
+	DUPLICATE THESE LINES OF CODE:
+onready var emitter_NPC01_ONE_ofSignal_nodePath = $NPC01_KinematicBodyNode/DIALOGUE_INDICATOR_Sprite3DNode
+
+func _ready():
+	##NPC01_ONE:
+	emitter_NPC01_ONE_ofSignal_nodePath.connect("makeCamCurrent_CHAR", camForDIALOGUE_MainCHAR_nodePath, "CamSwitchTo_WhoeverIsTalking_function"  )
+	emitter_NPC01_ONE_ofSignal_nodePath.connect("switchTo_GAME_CAM_signal", platformerCam_nodePath, 'switch_to_GAME_CAM_function')
+
+
+	EDIT THE FOLLOWING:
+ - the nodePath variable's name (in both the onready var and the func _ready() )
+ - the actual $node_path (only in the onready var)
+Iirc.
+
+
+
+ 
