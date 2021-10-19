@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LEVEL01_ATTEMPT_B.glb-55dae2c7fc8bc9f5c0fa91a4b58fabcd.scn"
+path="res://.import/LEVEL02_ATTEMPT_A_Forest.glb-2095ad3128f07bdc5dea9cc6dd4af1ed.scn"
 
 [deps]
 
-source_file="res://LEVEL/LEVEL01_ATTEMPT_B.glb"
-dest_files=[ "res://.import/LEVEL01_ATTEMPT_B.glb-55dae2c7fc8bc9f5c0fa91a4b58fabcd.scn" ]
+source_file="res://LEVEL/Glbs/LEVEL02_ATTEMPT_A_Forest.glb"
+dest_files=[ "res://.import/LEVEL02_ATTEMPT_A_Forest.glb-2095ad3128f07bdc5dea9cc6dd4af1ed.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop.glb-04b6dcacc408a356c252290616fce8b2.scn"
+path="res://.import/LEVEL01_ATTEMPT_B.glb-9aa03d9f1d36cd547fcaf20be771bad5.scn"
 
 [deps]
 
-source_file="res://LEVEL/LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop.glb"
-dest_files=[ "res://.import/LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop.glb-04b6dcacc408a356c252290616fce8b2.scn" ]
+source_file="res://LEVEL/Glbs/LEVEL01_ATTEMPT_B.glb"
+dest_files=[ "res://.import/LEVEL01_ATTEMPT_B.glb-9aa03d9f1d36cd547fcaf20be771bad5.scn" ]
 
 [params]
 
