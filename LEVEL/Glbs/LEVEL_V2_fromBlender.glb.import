@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LEVEL_V2_fromBlender.glb-72810da83dba86b92ec81d81519f89f6.scn"
+path="res://.import/LEVEL_V2_fromBlender.glb-9771812fa41a32d4aa4674d0babbcd10.scn"
 
 [deps]
 
-source_file="res://LEVEL/LEVEL_V2_fromBlender.glb"
-dest_files=[ "res://.import/LEVEL_V2_fromBlender.glb-72810da83dba86b92ec81d81519f89f6.scn" ]
+source_file="res://LEVEL/Glbs/LEVEL_V2_fromBlender.glb"
+dest_files=[ "res://.import/LEVEL_V2_fromBlender.glb-9771812fa41a32d4aa4674d0babbcd10.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb-f82dbeba2ef620a28928adf8807e054b.scn"
+path="res://.import/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb-a141cf618ff8d3e52a0aaf1aff30cd9d.scn"
 
 [deps]
 
-source_file="res://LEVEL/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb"
-dest_files=[ "res://.import/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb-f82dbeba2ef620a28928adf8807e054b.scn" ]
+source_file="res://LEVEL/Glbs/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb"
+dest_files=[ "res://.import/LEVEL01_ATTEMPT_C_TALLER_WALLS.glb-a141cf618ff8d3e52a0aaf1aff30cd9d.scn" ]
 
 [params]
 

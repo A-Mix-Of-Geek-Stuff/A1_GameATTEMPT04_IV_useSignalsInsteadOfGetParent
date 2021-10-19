@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LEVEL_01A_WONTBEVEL_WalkAndTalk.glb-3f41c48f6bf4c6febf0314620e78eed8.scn"
+path="res://.import/LEVEL_fromBlender.glb-565bb5d03a46e6c2c29d6406202f3b61.scn"
 
 [deps]
 
-source_file="res://LEVEL/LEVEL_01A_WONTBEVEL_WalkAndTalk.glb"
-dest_files=[ "res://.import/LEVEL_01A_WONTBEVEL_WalkAndTalk.glb-3f41c48f6bf4c6febf0314620e78eed8.scn" ]
+source_file="res://LEVEL/Glbs/LEVEL_fromBlender.glb"
+dest_files=[ "res://.import/LEVEL_fromBlender.glb-565bb5d03a46e6c2c29d6406202f3b61.scn" ]
 
 [params]
 

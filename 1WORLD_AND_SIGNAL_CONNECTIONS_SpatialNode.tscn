@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://LEVEL_V2___Trees_LowerWalls.tscn" type="PackedScene" id=1]
 [ext_resource path="res://CHAR_KinematicBodyNode.tscn" type="PackedScene" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_B.tscn" type="PackedScene" id=10]
 [ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_C_TALLER_WALLS.tscn" type="PackedScene" id=11]
 [ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop.tscn" type="PackedScene" id=12]
+[ext_resource path="res://LEVEL/LEVEL02_ATTEMPT_A_Forest.tscn" type="PackedScene" id=13]
 
 [node name="1WORLD_AND_SIGNAL_CONNECTIONS_SpatialNode" type="Spatial"]
 script = ExtResource( 5 )
@@ -45,9 +46,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.441, 0, -45.1327 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 206.862, 0, 0 )
 
 [node name="LEVEL01_ATTEMPT_B" parent="." instance=ExtResource( 10 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 86.8039 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 137.742, 0, 86.8039 )
 
 [node name="LEVEL01_ATTEMPT_C_TALLER_WALLS" parent="." instance=ExtResource( 11 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 70.3257, 0, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 90.5184, -24.0327, 0 )
 
 [node name="LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop" parent="." instance=ExtResource( 12 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 129.65, 0, 38.3899 )
+
+[node name="LEVEL02_ATTEMPT_A_Forest" parent="." instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1958, 0, -21.065 )
