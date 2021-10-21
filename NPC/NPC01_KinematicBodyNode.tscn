@@ -33,7 +33,7 @@ shape = SubResource( 2 )
 [node name="DIALOGUE_CameraNode" parent="." instance=ExtResource( 3 )]
 
 [node name="DIALOGUE_INDICATOR_Sprite3DNode" type="Sprite3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1113, 0 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 1, 0, 3.23946, 0 )
 billboard = 1
 texture = SubResource( 3 )
 script = ExtResource( 2 )
