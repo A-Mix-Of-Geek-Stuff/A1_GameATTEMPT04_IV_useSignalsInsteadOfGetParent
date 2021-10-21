@@ -7,7 +7,7 @@ extends Spatial
 
 # Declare member variables here. Examples:
 var HORIZONTAL_camRotate = 0
-var VERTICAL_camRotate = -30
+var VERTICAL_camRotate = -25
 # var b = "text"
 
 

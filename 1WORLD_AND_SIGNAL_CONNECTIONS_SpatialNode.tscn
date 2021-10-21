@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://LEVEL_V2___Trees_LowerWalls.tscn" type="PackedScene" id=1]
 [ext_resource path="res://CHAR_KinematicBodyNode.tscn" type="PackedScene" id=2]
@@ -8,10 +8,6 @@
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=6]
 [ext_resource path="res://NPC/NPC02_TWO_KinematicBodyNode.tscn" type="PackedScene" id=7]
 [ext_resource path="res://NPC/NPC03_THREE_KinematicBodyNode.tscn" type="PackedScene" id=8]
-[ext_resource path="res://LEVEL/LEVEL_01A_WONTBEVEL_WalkAndTalk.tscn" type="PackedScene" id=9]
-[ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_B.tscn" type="PackedScene" id=10]
-[ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_C_TALLER_WALLS.tscn" type="PackedScene" id=11]
-[ext_resource path="res://LEVEL/LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop.tscn" type="PackedScene" id=12]
 [ext_resource path="res://LEVEL/LEVEL02_ATTEMPT_A_Forest.tscn" type="PackedScene" id=13]
 
 [node name="1WORLD_AND_SIGNAL_CONNECTIONS_SpatialNode" type="Spatial"]
@@ -19,8 +15,11 @@ script = ExtResource( 5 )
 
 [node name="Dialog" parent="." instance=ExtResource( 6 )]
 
+[node name="____CHAR_KinematicBodyNode____" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.351, 3.98286, -8.09159 )
+
 [node name="LEVEL_fromBlender" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -86.2074, 0, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -86.2074, -30.291, 0 )
 
 [node name="DEBUG_ENTIRE_World_Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.271356, 0.962479, 0, -0.962479, 0.271356, 0, 48.7414, -5.74153 )
@@ -32,27 +31,13 @@ transform = Transform( 1, 0, 0, 0, 0.976848, 0.213934, 0, -0.213934, 0.976848, 0
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -119.805 )
 
 [node name="NPC01_KinematicBodyNode" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.06549, -0.0291284, 2.92881 )
+transform = Transform( 0.455623, 0, -0.890173, 0, 1, 0, 0.890173, 0, 0.455623, -13.3092, -0.0291284, -10.2962 )
 
 [node name="NPC02_TWO_KinematicBodyNode" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.846, 0, -29.0443 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.7674, 0, -42.7085 )
 
 [node name="NPC03_THREE_KinematicBodyNode" parent="." instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.441, 0, -45.1327 )
-
-[node name="____CHAR_KinematicBodyNode____" parent="." instance=ExtResource( 2 )]
-
-[node name="LEVEL_01A_WONTBEVEL_WalkAndTalk" parent="." instance=ExtResource( 9 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 206.862, 0, 0 )
-
-[node name="LEVEL01_ATTEMPT_B" parent="." instance=ExtResource( 10 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 137.742, 0, 86.8039 )
-
-[node name="LEVEL01_ATTEMPT_C_TALLER_WALLS" parent="." instance=ExtResource( 11 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 90.5184, -24.0327, 0 )
-
-[node name="LEVEL01_ATTEMPT_D_DontBevelGround_OnlyBevelTop" parent="." instance=ExtResource( 12 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 129.65, 0, 38.3899 )
+transform = Transform( 0.0571981, 0, 0.998363, 0, 1, 0, -0.998363, 0, 0.0571981, -30.9853, 0, -11.1821 )
 
 [node name="LEVEL02_ATTEMPT_A_Forest" parent="." instance=ExtResource( 13 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1958, 0, -21.065 )

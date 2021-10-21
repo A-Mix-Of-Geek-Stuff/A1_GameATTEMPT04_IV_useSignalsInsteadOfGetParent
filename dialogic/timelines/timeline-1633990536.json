@@ -5,12 +5,6 @@
 			"wait_seconds": 0.1
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Initialized on GitKraken...\nAnd now online on GitHub!\nNice!"
-		},
-		{
 			"emit_signal": "pointCamAt_CHAR",
 			"event_id": "dialogic_040"
 		},
@@ -48,7 +42,7 @@
 			"character": "character-1633990599.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "If you can jump high enough,\nYou can walk up to some trees."
+			"text": "Not really, to be honest."
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -58,7 +52,7 @@
 			"character": "character-1633990573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh, interesting!"
+			"text": "Aw come on!\nThere's gotta be something!"
 		},
 		{
 			"emit_signal": "pointCamAt_NPC",
@@ -68,7 +62,7 @@
 			"character": "character-1633990599.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Have fun."
+			"text": "There's... trees...\n...to look at...\nYou like trees?"
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -78,7 +72,17 @@
 			"character": "character-1633990573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Okay, bye!"
+			"text": "Sure!\nWho doesn't?"
+		},
+		{
+			"emit_signal": "pointCamAt_NPC",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1633990599.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You sure are happy."
 		},
 		{
 			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
