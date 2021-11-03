@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/CHARACTER_fromBlenderNEW.glb-bd2664e365b809fed0efc5b6cb92cca8.scn"
+path="res://.import/CHARACTER_fromBlender.glb-aed5d87282e289a4394558d6a1a7ab4a.scn"
 
 [deps]
 
-source_file="res://CHARACTER_Main/CHARACTER_fromBlenderNEW.glb"
-dest_files=[ "res://.import/CHARACTER_fromBlenderNEW.glb-bd2664e365b809fed0efc5b6cb92cca8.scn" ]
+source_file="res://CHARACTER_Main/CHARACTER_fromBlender.glb"
+dest_files=[ "res://.import/CHARACTER_fromBlender.glb-aed5d87282e289a4394558d6a1a7ab4a.scn" ]
 
 [params]
 

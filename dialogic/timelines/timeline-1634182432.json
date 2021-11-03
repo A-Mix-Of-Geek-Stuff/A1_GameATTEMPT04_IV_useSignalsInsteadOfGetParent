@@ -52,7 +52,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nothing!\nBlah!"
+			"text": "Nothing!\nHahaha!"
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -62,7 +62,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "...Ah...?"
+			"text": "Okay then..."
 		},
 		{
 			"emit_signal": "pointCamAt_NPC1",
@@ -72,7 +72,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Thanks for checking out this prototype!\nI'm still learning Godot.\nThings to add to this game:\n - use Multi Mesh for trees so they don't lag the game\n - diff animations during dialogue\n - Npcs that look at the character during dialogue (did you notice?)\n - add jumping?\n - maybe see if i can get mobile touch controls working in web browsers?\n(Yeah those rectangles on the screen used to be touch controls).\n - polish."
+			"text": "Thanks for checking out this prototype!\nI'm still learning Godot.\nThings to add to this game:\n - use Multi Mesh for trees so they don't lag the game\n - diff animations during dialogue\n - lotsa polish\n - get confident making 3d characters in Blender.\n - Npcs that look at the character during dialogue (did you notice?)\n - add jumping?\n - maybe see if i can get mobile touch controls working in web browsers?\n(Yeah those rectangles on the screen used to be touch controls).\nSee ya!"
 		},
 		{
 			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
