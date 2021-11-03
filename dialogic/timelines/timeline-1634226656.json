@@ -32,7 +32,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Press space bar, silly!"
+			"text": "Press space bar."
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -42,7 +42,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I did! It's not working!"
+			"text": "It's not working..."
 		},
 		{
 			"emit_signal": "pointCamAt_NPC",

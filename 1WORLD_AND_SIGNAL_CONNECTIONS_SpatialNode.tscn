@@ -34,7 +34,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -119.805 )
 transform = Transform( 0.455623, 0, -0.890173, 0, 1, 0, 0.890173, 0, 0.455623, -13.3092, -0.0291284, -10.2962 )
 
 [node name="NPC02_TWO_KinematicBodyNode" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.7674, 0, -42.7085 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.32225, 0, -2.07009 )
 
 [node name="NPC03_THREE_KinematicBodyNode" parent="." instance=ExtResource( 8 )]
 transform = Transform( 0.0571981, 0, 0.998363, 0, 1, 0, -0.998363, 0, 0.0571981, -30.9853, 0, -11.1821 )

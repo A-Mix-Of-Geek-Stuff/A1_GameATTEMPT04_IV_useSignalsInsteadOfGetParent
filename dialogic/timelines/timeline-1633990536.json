@@ -42,7 +42,7 @@
 			"character": "character-1633990599.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Not really, to be honest."
+			"text": "Not really.\nUnless,\nDo you like trees?"
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -52,7 +52,7 @@
 			"character": "character-1633990573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Aw come on!\nThere's gotta be something!"
+			"text": "Uh...\nSure..?"
 		},
 		{
 			"emit_signal": "pointCamAt_NPC",
@@ -62,7 +62,7 @@
 			"character": "character-1633990599.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "There's... trees...\n...to look at...\nYou like trees?"
+			"text": "Then take a look at trees."
 		},
 		{
 			"emit_signal": "pointCamAt_CHAR",
@@ -72,17 +72,7 @@
 			"character": "character-1633990573.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sure!\nWho doesn't?"
-		},
-		{
-			"emit_signal": "pointCamAt_NPC",
-			"event_id": "dialogic_040"
-		},
-		{
-			"character": "character-1633990599.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "You sure are happy."
+			"text": "Uh... Okay."
 		},
 		{
 			"emit_signal": "switchTo_GAME_CAM_fromDialogic",
