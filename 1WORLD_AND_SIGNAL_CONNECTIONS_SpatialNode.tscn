@@ -16,7 +16,7 @@ script = ExtResource( 5 )
 [node name="Dialog" parent="." instance=ExtResource( 6 )]
 
 [node name="____CHAR_KinematicBodyNode____" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.351, 3.98286, -8.09159 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.7221, 3.98286, -14.9861 )
 
 [node name="LEVEL_fromBlender" parent="." instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -86.2074, -30.291, 0 )
@@ -31,7 +31,7 @@ transform = Transform( 1, 0, 0, 0, 0.976848, 0.213934, 0, -0.213934, 0.976848, 0
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -119.805 )
 
 [node name="NPC01_KinematicBodyNode" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.455623, 0, -0.890173, 0, 1, 0, 0.890173, 0, 0.455623, -13.3092, -0.0291284, -10.2962 )
+transform = Transform( 0.455623, 0, -0.890173, 0, 1, 0, 0.890173, 0, 0.455623, -13.3092, -0.0291284, -12.0784 )
 
 [node name="NPC02_TWO_KinematicBodyNode" parent="." instance=ExtResource( 7 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.32225, 0, -2.07009 )
